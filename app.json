@@ -1,13 +1,13 @@
 {
-    "name": "BIN Checker Bot",
-    "description": "A simple PHP powered BIN Checker Bot",
+    "name": "Diamon Jackson",
+    "description": "DiamonCheck",
     "keywords": [
         "BIN",
         "Checker",
         "Bot"
     ],
-    "website": "https://reboot13.hashnode.dev",
-    "repository": "https://github.com/reboot13-git/bin-checker-bot",
+    "website": "https://github.com/diamonjackson/",
+    "repository": "https://github.com/diamonjackson/bin-checker-bot/",
     "success_url": "/",
     "env": {
         "API_TOKEN": {

@@ -1,5 +1,5 @@
 <?php
-    date_default_timezone_set("Asia/kolkata");
+    date_default_timezone_set("America/lima");
     //Data From Webhook
     $content = file_get_contents("php://input");
     $update = json_decode($content, true);
@@ -49,7 +49,7 @@ $flag = $data['data']['countryInfo']['emoji'];
  $result1 = $data['result'];
 
     if ($result1 == true) {
-    send_message($chat_id,$message_id, "***✅ Valid BIN
+    send_message($chat_id,$message_id, "***✅ BIN Valido
 Bin: $bin
 Brand: $brand
 Level: $level
